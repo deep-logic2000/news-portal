@@ -1,0 +1,67 @@
+.filter-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0.2em;
+    flex-wrap: wrap;
+}
+
+.filter__btn {
+    background: #70d6ff;
+    border: 2px solid #30c5ff;
+    font: inherit;
+    line-height: 1;
+    width: 25px;
+    height: 25px;
+    color: #3558f3;
+    transition: 0.25s;
+    cursor: pointer;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.filter__btn:hover,
+.filter__btn:focus {
+    border-color: #e4f8b5;
+    color: #3558f3;
+    box-shadow: 0 0.5em 0.5em -0.4em #3fcc59;
+    transform: translateY(-0.25em);
+}
+
+@media (min-width: 640px) {
+    .filter-buttons-wrapper {
+        gap: 0.3em;
+    }
+
+    .filter__btn {
+        width: 30px;
+        height: 30px;
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 640px) {
+    .filter-buttons-wrapper {
+        gap: 0.4em;
+    }
+
+    .filter__btn {
+        width: 30px;
+        height: 30px;
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 1280px) {
+    .filter-buttons-wrapper {
+        gap: 0.5em;
+    }
+
+    .filter__btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1.3em;
+    }
+}

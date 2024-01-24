@@ -1,0 +1,17 @@
+.footer__github-link {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.gitHub__image,
+.rsSchool__image {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__rs-link {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
